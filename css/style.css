@@ -1,0 +1,139 @@
+.links
+{
+  background-color: #dc143c22;
+}
+.container8{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding:15px 25px;
+}
+
+.container8 .heading{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color:#334;
+}
+
+.container8 .box-container8{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap:20px;
+}
+
+.container8 .box-container8 .box{
+  background-color: #fff;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  display: none;
+}
+
+.container8 .box-container8 .box:nth-child(1),
+.container8 .box-container8 .box:nth-child(2),
+.container8 .box-container8 .box:nth-child(3){
+  display: inline-block;
+}
+
+.container8 .box-container8 .box .image{
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.container8 .box-container8 .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container8 .box-container8 .box:hover .image img{
+  transform: scale(1.1);
+}
+
+.container8 .box-container8 .box .content h3{
+  font-size: 20px;
+  color:#334;
+}
+
+.container8 .box-container8 .box .content p{
+  font-size: 15px;
+  color:#777;
+  line-height: 2;
+  padding:15px 0;
+}
+
+.container8 .box-container8 .box .content .btn{
+  display: inline-block;
+  padding:10px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+}
+
+.container8 .box-container8 .box .content .btn:hover{
+  background-color: crimson;
+  border-color: crimson;
+  color:#fff;
+}
+
+.container8 .box-container8 .box .content .icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top:1px solid #334;
+}
+
+.container8 .box-container8 .box .content .icons span{
+  font-size: 14px;
+  color:#777;
+}
+
+.container8 .box-container8 .box .content .icons span i{
+  color:crimson;
+  padding-right: 5px;
+}
+
+#load-more{
+  margin-top: 20px;
+  display: inline-block;
+  padding:13px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover{
+  background-color: crimson;
+  border-color: crimson;
+  color:#fff;
+}
+
+@media (max-width:450px){
+
+  .container .heading{
+    font-size: 25px;
+  }
+
+  .container .box-container{
+    grid-template-columns: 1fr;
+  }
+
+  .container .box-container .box .image{
+    height: 200px;
+  }
+
+  .container .box-container .box .content p{
+    font-size: 12px;
+  }
+
+  .container .box-container .box .content .icons span{
+    font-size: 12px;
+  }
+
+}
