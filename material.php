@@ -11,7 +11,7 @@ session_start();
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/style.css">
+        <!--<link rel="stylesheet" href="css/style.css">-->
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -194,7 +194,7 @@ session_start();
             .course-col
             {
               flex-basis: 31%;
-              background: #fff3f3;
+              background: #f7e46178;
               border-radius: 10px;
               margin-bottom: 5%;
               padding: 20px 12px;
@@ -347,6 +347,14 @@ session_start();
           {
             margin-bottom: 50px;
           }
+          .container8 .box-container8 .box .content p{
+            font-size: 15px;
+            color:rgb(36, 35, 35);
+            line-height: 2;
+            padding:5px 0;
+            margin-top: -10px;
+            margin-bottom: 5px;
+          }
           .subjects .box-container 
           {
             display: -ms-grid;
@@ -393,6 +401,146 @@ session_start();
             line-height: 1.5;
             color: #777;
           }
+
+.links
+{
+  background-color: #1471dc22;
+}
+.container8{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding:15px 25px;
+}
+
+.container8 .heading{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color:#334;
+}
+
+.container8 .box-container8{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap:30px;
+}
+
+.container8 .box-container8 .box{
+  background-color: #fff;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  display: none;
+}
+
+.container8 .box-container8 .box:nth-child(1),
+.container8 .box-container8 .box:nth-child(2),
+.container8 .box-container8 .box:nth-child(3){
+  display: inline-block;
+}
+
+.container8 .box-container8 .box .image{
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.container8 .box-container8 .box .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container8 .box-container8 .box:hover .image img{
+  transform: scale(1.1);
+}
+
+.container8 .box-container8 .box .content h3{
+  font-size: 20px;
+  color:#334;
+}
+
+.container8 .box-container8 .box .content p{
+  font-size: 15px;
+  color:rgb(36, 35, 35);
+  line-height: 2;
+  padding:5px 0;
+}
+
+.container8 .box-container8 .box .content .btn8{
+  display: inline-block;
+  padding:10px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+}
+
+.container8 .box-container8 .box .content .btn8:hover{
+  background-color: #488fbb;
+  border-color: #334261;
+  color:#fff;
+}
+
+.container8 .box-container8 .box .content .icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top:1px solid #334;
+}
+
+.container8 .box-container8 .box .content .icons span{
+  font-size: 14px;
+  color:#777;
+}
+
+.container8 .box-container8 .box .content .icons span i{
+  color:crimson;
+  padding-right: 5px;
+}
+
+#load-more{
+  margin-top: 20px;
+  display: inline-block;
+  padding:13px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover{
+  background-color: #488fbb;
+  border-color: #488fbb;
+  color:#fff;
+}
+
+@media (max-width:450px){
+
+  .container8 .heading{
+    font-size: 25px;
+  }
+
+  .container8 .box-container8{
+    grid-template-columns: 1fr;
+  }
+
+  .container8 .box-container8 .box .image{
+    height: 200px;
+  }
+
+  .container8 .box-container8 .box .content p{
+    font-size: 12px;
+  }
+
+  .container8 .box-container8 .box .content .icons span{
+    font-size: 12px;
+  }
+
+}
 
          </style>
          <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -447,11 +595,11 @@ session_start();
         </header>
           <div class="v-header container" style="margin:0px;">
             <div class="fullscreen-video-wrap">
-              <img src="img/home-slide-2.jpg" alt="" style="height: auto; width:100%;">
+              <img src="img/home-slide-2.jpg" alt="" style="height: 100%; width:auto;">
               </div>
-              <div class="header-content text-md-center" style="margin-left: -120px; margin-right:475px; margin-top:-175px;">
-                <h1>ENGINEERING</h1>
-                <p>To a place where you can test your MHT CET preparations and lead yourself closer to your goal by uplifting your preparations. Just Remember that it's not about how bad you want it, it's about how hard you are willing to work for it.</p>
+              <div class="header-content text-md-center" style="margin-left: -140px; margin-right:475px; margin-top:-245px;">
+                <h1 style="font-size: 39px;">With <span style="color: #f5bb00; font-size:59px;">CrackIt!</span></h1>
+                <p>You Can Have Access to the <span style="color: #f5bb00;">Best Study Resources</span> Which Would Help You Throughout Your Preparation at this Single Platform and that too for completely <span style="color: #f5bb00;">FREE of cost.</span><br> So What are You Waiting For?</p>
               </div>
             </div>
       <section class="section section-a" style="text-align: left;">
@@ -459,51 +607,12 @@ session_start();
         </div><br><br><br>
       </section>
 
-      <section class="subjects" style="padding: 3rem 5%;">
 
-   <h1 class="heading" style="text-align: center;">Our Popular Subjects</h1><br>
-   <p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, laborum! Sequi ullam distinctio repellendus eius dolorum esse at ratione officia perspiciatis illo totam, officiis incidunt pariatur delectus? Sit aperiam, consequuntur culpa laboriosam praesentium quibusdam excepturi.</p><br>
 
-   <div class="box-container">
+<section class="links" style="background-color: #a7cde3a6"><br>
+<div class="container8"><br>
 
-      <div class="box">
-         <img src="images/subject-icon-1.png" alt="">
-         <h3>graphic design</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/subject-icon-2.png" alt="">
-         <h3>mathemetics</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/subject-icon-3.png" alt="">
-         <h3>teaching</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/subject-icon-4.png" alt="">
-         <h3>development</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/subject-icon-5.png" alt="">
-         <h3>science</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/subject-icon-6.png" alt="">
-         <h3>engineering</h3>
-      </div>
-
-   </div>
-
-</section>
-
-<section class="links">
-<div class="container8">
-
-   <h3 class="heading">Study Resources for Free Access.</h3>
+   <h3 class="heading" style="font-size: 35px;">Study Resources for Free Access.</h3><br>
 
    <div class="box-container8">
 
@@ -514,9 +623,9 @@ session_start();
          <div class="content">
             <h3>Physics Chapterwise Notes</h3>
             <p>Chapterwise Notes containing Summarised Theory along with ample of Problems to Solve. </p>
-            <a href="#" class="btn">read more</a>
+            <a href="https://drive.google.com/drive/folders/1XHZfU3QkpRpyhCr8T0BpdraqakXACD-4?usp=sharing" class="btn8">Access Them</a>
             <div class="icons">
-               <span> <i class="fas fa-user"></i> by admin </span>
+               <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
          </div>
       </div>
@@ -527,10 +636,10 @@ session_start();
          </div>
          <div class="content">
          <h3>Chemistry Chapterwise Notes</h3>
-            <p>Chapterwise Notes containing Summarised Theory along with numerous Practice Questions. </p>
-            <a href="#" class="btn">read more</a>
+            <p>Chapterwise Notes containing Summarised Theory along with Practice Questions. </p>
+            <a href="https://drive.google.com/drive/folders/1JIJOG-OXMYFsWDrSq1c14pAPIB7aW3K_?usp=sharing" target="_blank" class="btn8">Access Them</a>
             <div class="icons">
-               <span> <i class="fas fa-user"></i> by admin </span>
+               <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
          </div>
       </div>
@@ -542,9 +651,9 @@ session_start();
          <div class="content">
          <h3>Mathematics Chapterwise Notes</h3>
             <p>Chapterwise Notes containing Formulae along with sufficient Problems to Solve. </p>
-            <a href="#" class="btn">read more</a>
+            <a href="https://drive.google.com/drive/folders/1Cs8WTPNsry7B8vuGrGVJ3yCwo-Qd39mh?usp=sharing" class="btn8">Access Them</a>
             <div class="icons">
-               <span> <i class="fas fa-user"></i> by admin </span>
+               <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
          </div>
       </div>
@@ -556,7 +665,7 @@ session_start();
          <div class="content">
          <h3>Physics Previous Years</h3>
             <p>Chapterwise Previous Years Questions for Practice.</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -570,7 +679,7 @@ session_start();
          <div class="content">
          <h3>Chemistry Previous Years</h3>
             <p>Chapterwise Previous Years Questions for Practice.</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -584,7 +693,7 @@ session_start();
          <div class="content">
          <h3>Mathematics Previous Years</h3>
             <p>Chapterwise Previous Years Questions for Practice.</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -598,7 +707,7 @@ session_start();
          <div class="content">
             <h3>Previous Years Set-1</h3>
             <p>Previous Year Question Papers Set-1</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -612,7 +721,7 @@ session_start();
          <div class="content">
          <h3>Previous Years Set-2</h3>
             <p>Previous Year Question Papers Set-2</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -626,7 +735,7 @@ session_start();
          <div class="content">
          <h3>Previous Years Set-3</h3>
             <p>Previous Year Question Papers Set-3</p>
-            <a href="#" class="btn">read more</a>
+            <a href="#" class="btn8">Access Them</a>
             <div class="icons">
                <span> <i class="fas fa-user"></i> by Admin </span>
             </div>
@@ -635,9 +744,9 @@ session_start();
 
    </div>
 
-   <div id="load-more"> load more </div><br>
+   <div id="load-more"> Load More </div><br><br>
 
-</div>
+</div><br>
             </section>
 <script>
 
@@ -658,10 +767,52 @@ loadMoreBtn.onclick = () =>{
 
 </script>
 
-    
+<!--
+<section class="subjects" style="padding: 3rem 5%;">
+
+<h1 class="heading" style="text-align: center;">Our Popular Subjects</h1><br>
+<p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, laborum! Sequi ullam distinctio repellendus eius dolorum esse at ratione officia perspiciatis illo totam, officiis incidunt pariatur delectus? Sit aperiam, consequuntur culpa laboriosam praesentium quibusdam excepturi.</p><br>
+
+<div class="box-container">
+
+   <div class="box">
+      <img src="images/subject-icon-1.png" alt="">
+      <h3>graphic design</h3>
+   </div>
+
+   <div class="box">
+      <img src="images/subject-icon-2.png" alt="">
+      <h3>mathemetics</h3>
+   </div>
+
+   <div class="box">
+      <img src="images/subject-icon-3.png" alt="">
+      <h3>teaching</h3>
+   </div>
+
+   <div class="box">
+      <img src="images/subject-icon-4.png" alt="">
+      <h3>development</h3>
+   </div>
+
+   <div class="box">
+      <img src="images/subject-icon-5.png" alt="">
+      <h3>science</h3>
+   </div>
+
+   <div class="box">
+      <img src="images/subject-icon-6.png" alt="">
+      <h3>engineering</h3>
+   </div>
+
+</div>
+
+</section>
+-->
+
       <section class="course">
-        <h1><strong>Subjects in MHTCET</strong></h1>
-        <p>MHT CET 2021 syllabus includes four subjects - Physics, Chemistry and Mathematics/Biology out of which at "CrackIt!" we are going to primarily focus the following three subjects. The Exam for PCM group is subdivided into two phases : Physics+Chemistry in the first phase and Maths in the latter.</p>
+        <h1><strong>HSC Textbooks for Free Download.</strong></h1>
+        <p>Textbooks are considered to be among the best preparatory resources but many of us forget this basic fact and set their focuses on References Books rather than the textbooks which cover the entire syllabus. Click on the following subjects in case you want to download a particular textbook.</p>
 
         <div class="row">
           <div class="course-col">

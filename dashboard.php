@@ -18,7 +18,9 @@ include "header2.php";
                  <div class="row" style="margin-top: 30px;">
                    <div class="row" style="align-items: center;">
                            <div class="col-lg-10 col-lg-push-1" style="min-height:300px; background-color: white;" id="load_questions">
-                              
+                           <p style="text-align: justify;">General Instructions: <br> 1. The Countdown Timer in the right corner displays the Remaining Time Available to you to Complete your Exam. <br> 2. When the Timer will reach 0, the Exam will  Automatically Terminate. </p>
+                           <p style="text-align: justify;">Navigating to a Question: <br> 1. Click NEXT to move to the next question. <br> 2. Click PREVIOUS to move to the previous question. <br> 3. Click SUBMIT EXAM to end/terminate the Exam. CLICKING THIS OPTION WILL END YOUR EXAM AND GENERATE YOUR RESULT. SO BE DOUBLE SURE WHILE CLICKING IT. </p>   
+                           <h5 style="font-weight:600; text-align:center; margin-top:40px;">CLICK "NEXT" TO LOAD THE QUESTIONS.</h5>
                            </div>
                    </div>
                  </div>
@@ -53,7 +55,7 @@ include "header2.php";
         xmlhttp.send(null);
     }
 
-    var questionno="1";
+    var questionno="0";
 
     function load_questions(questionno)
     {

@@ -165,7 +165,7 @@ session_start();
 
             .course
             {
-              width: 80%;
+              width: 86%;
               margin: auto;
               text-align: center;
               padding-top: 25px;
@@ -178,7 +178,7 @@ session_start();
             
             .course p
             {
-              color: #777;
+              color: #302f2f;
               font-size: 16px;
               font-weight: 300;
               line-height: 22px;
@@ -193,7 +193,7 @@ session_start();
             .course-col
             {
               flex-basis: 31%;
-              background: #fff3f3;
+              background: #4ad9b273;
               border-radius: 10px;
               margin-bottom: 5%;
               padding: 20px 12px;
@@ -567,36 +567,108 @@ session_start();
             <div class="fullscreen-video-wrap">
               <img src="images/home-slide-3.jpg" alt="" style="height: auto; width:100%;">
               </div>
-              <div class="header-content text-md-center" style="margin-left: -120px; margin-right:475px; margin-top:-175px;">
-                <h1>ENGINEERING</h1>
-                <p>To a place where you can test your MHT CET preparations and lead yourself closer to your goal by uplifting your preparations. Just Remember that it's not about how bad you want it, it's about how hard you are willing to work for it.</p>
+              <div class="header-content text-md-center" style="margin-left: -100px; margin-right:405px; margin-top:-245px;">
+                <h3 style="font-size: 30px;">As Far As <span style="font-size: 39px;">Engineering </span> <span style="color: #f5bb00; font-size:59px;">Admissions</span></h3>
+                <p>Are Concerned there is a lot more You Need To Know Than You Already Know. And we at <span style="color: #f5bb00;">CRACKIT!</span> aim to provide You what You need. </p>
               </div>
             </div>
-      <section class="section section-a" style="text-align: left;">
-        <div class="container">
-        </div><br><br><br>
+      <section class="section section-a" style="text-align: left; color:white">
+        <div class="container5" style="margin-left: 350px; margin-right:250px;"><br><br><br>
+          <h2>All You Need To Know About Engineering Admissions.</h2><br>
+          <p><span style="text-align: justify;">Admissions to Engineering Colleges in Maharashtra start after the CET results. Admissions are granted via Centralized Admission Process CAP. Students need to fill online application form to participate in the admission process. Students then need to fill the online option form to seek admission on the basis their CET Percentile and Rank. The admission process has been revised from the year academic year 2016-17 and numerous changes have been listed out below. The revised process has also been given below that.</span><span style="text-align: left;"><li> You will have to fill the options only once before round 1.</li> <li> Number of CAP Rounds have been changed to 3 i.e. 2 online and one spot counselling.</li> <li> Candidates will now apply through their merit number (based on MH-CET score).</li></span></p><br>
+          <p style="margin-left: 35px;">THE PROCESS :<ul style="margin-left: 65px;">
+            <li>Stage 1 : Puchase of Application Kit from the ARC.</li>
+            <li>Stage 2 : Online Filling of Application Form</li>
+            <li>Stage 3 : Confirmation of Form at ARC</li>
+            <li>Stage 4 : Display of Provisional Merit List</li>
+            <li>Stage 5 : Online option forms for CAP Rounds</li>
+            <li>Stage 6 : Allotment and Confirmation of Seats</li>
+            <li>Stage 7 : CAP Round - Counselling Round</li>
+          </ul></p>
+        </div><br><br>
       </section><br>
     
       <section class="course">
-        <h1><strong>Subjects in MHTCET</strong></h1>
-        <p>MHT CET 2021 syllabus includes four subjects - Physics, Chemistry and Mathematics/Biology out of which at "CrackIt!" we are going to primarily focus the following three subjects. The Exam for PCM group is subdivided into two phases : Physics+Chemistry in the first phase and Maths in the latter.</p>
+        <h1><strong>Top 9 Engineering Colleges in Maharashtra</strong></h1>
+        <p> Maharashtra has a vast number of colleges offering BTech courses via MHT CET. There are around 410 MHT CET colleges in Maharashtra, out of which 91% are private, and 9% are the government. Aspirants who wish to get into the field of Engineering can begin with BTech after completing Class 12. This course is available in various specialisations like Computer Science, Civil, Mechanical, etc. Following is the list of Our Prefrences for the Top 9 Engineering Colleges in Maharashtra admitting tudents on basis of their MHTCET Scores. These Prefrences are being arranged on considering overall parameters along with their Rankings.</p>
 
-        <div class="row">
+        <div class="row" style="margin-bottom: -75px;">
           <div class="course-col">
-            <h3>Physics</h3>
-            <p>Physics has a weightage of 50 marks out of 200. Most of the questions are of the difficulty level 'Easy to Medium' and a few are over that. Combined Time alloted along with Chemistry is 90 minutes.</p>
+            <a href="http://www.coep.org.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#1.</span> College of Engineering Pune.</h3>
+            <p>COEP is one of the best Government Engineering Institute in the country with the highest cuttoffs each year. All the branches in the college are the best and are highly preffered by students.</p>
+            </a></div>
+          <div class="course-col">
+            <a href="https://vjti.ac.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#2.</span> Veermata Jijabai Technological Institute, Mumbai.</h3>
+            <p>VJTI is among the best autonomous institutes in Mumbai with a very high placement records in the past years.</p>
+            </a>
           </div>
           <div class="course-col">
-            <h3>Chemistry</h3>
-            <p>Chemistry is considered as one of the scoring subjects in MHT CET. Most of the questions are of the difficulty level 'Easy to Medium'. Combined Time alloted along with Physics is 90 minutes.</p>
-          </div>
-          <div class="course-col">
-            <h3>Maths</h3>
-            <p>Out of the three subjects, Maths has the highest weightage of 100 out of 200 marks. It is a subject which plays the master role in determining your final MHT CET results. Time alloted is 90 minutes.</p>
+          <a href="https://pict.edu/" target="_blank">
+          <h3><span style="font-size: 25px;">#3.</span> Pune Institute of Computer Technology.</h3>
+            <p>PICT is a well known private Engineering Institute for Computer Engineering and related branches. Sadly it does not have seats for non-IT core branches.</p>
+          </a>
           </div>
         </div>
-
+        <div class="row" style="margin-bottom: -75px;">
+          <div class="course-col">
+          <a href="http://www.walchandsangli.ac.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#4.</span> Walchand College of &nbsp;&nbsp;&nbsp; Engineering, Sangli.</h3>
+            <p>Walchand College of Engineering is an autonomous Engineering College in the city of Sangli serving seats for several branches including all the core branches.</p></a>
+          </div>
+          <div class="course-col">
+          <a href="https://www.vit.edu/" target="_blank">
+            <h3><span style="font-size: 25px;">#5.</span> Vishwakarma Institute of &nbsp;&nbsp; Technology, Pune.</h3>
+            <p>Vishwakarma Institute of Technology is an autonomous engineering college in Pune which was established in 1983 and it is affiliated to the Savitribai Phule Pune University.</p></a>
+          </div>
+          <div class="course-col">
+          <a href="https://www.spit.ac.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#6.</span> Sardar Patel Institute of &nbsp;&nbsp;&nbsp; Technology, Mumbai.</h3>
+            <p>SPIT is an autonomous un-aided Research and Engineering Institute affiliated to University of Mumbai offering seats for Computer Engineering and related branches.</p></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="course-col">
+          <a href="https://www.ictmumbai.edu.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#7.</span> Institute of Chemical Technology, Matunga, Mumbai.</h3>
+            <p>Institute of Chemical Technology is a state-funded deemed university in Mumbai, India. It is focused on training and research in fields of chemical engineering, chemical technology, and pharmacy.</p></a>
+          </div>
+          <div class="course-col">
+          <a href="http://www.gcekarad.ac.in/" target="_blank">
+            <h3><span style="font-size: 25px;">#8.</span> Government College of &nbsp;&nbsp;&nbsp; Engineering, Karad.</h3>
+            <p>Government College of Engineering, Karad is an autonomous technical institute established in 1960 affiliated to the Shivaji University with an autonomous status under the UGC.</p></a>
+          </div>
+          <div class="course-col">
+          <a href="http://www.pccoepune.com/" target="_blank">
+          <h3><span style="font-size: 25px;">#9.</span> Pimpri Chinchwad College of &nbsp;&nbsp; Engineering, Pune.</h3>
+            <p>Pimpri Chinchwad College of Engineering is an engineering college in the city of Pune, established in the year 1999 and it is affiliated to the Savitribai Phule Pune University.</p></a>
+          </div>
+            </div>
       </section>
+
+      <section class="section section-a" style="text-align: left; color:white; box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);">
+      <div class="container5" style="margin-left: 350px; margin-right:250px; margin-top:150px;"><br><br><br>
+        <h2 style="margin-left: 70px;">Documents Required for Engineering Admissions.</h2><br>
+        <p><span style="text-align: justify;">You must ensure that You have all the below mentioned Documents in original copies and scanned copies of all these Documents before seeking Admissions in any Institute.</p><br>
+        <p style="margin-left: 185px;">THE DOCUMENTS :<ul style="margin-left: 265px;">
+            <li>1. MHTCET/JEE Results/Marksheet</li>
+            <li>2. MHTCET Seat Confirmation Letter</li>
+            <li>3. SSC Marksheet</li>
+            <li>4. HSC Marksheet</li>
+            <li>5. HSC Board Certificate</li>
+            <li>6. Leaving Certificate of HSC</li>
+            <li>7. Domicile Certificate</li>
+            <li>8. Non-Creamy Layer Certificate</li>
+            <li>9. Income Certificate (for Categories and TFWS)</li>
+            <li>10. Caste Certificate (if applicable)</li>
+            <li>11. Caste Validity Certificate (if applicable)</li>
+            <li>12. Migration Certificate (if applicable)</li>
+            <li>13. Adhaar Card </li>
+          </ul></p>
+        </div><br><br>
+      </section>
+
       <section class="section section-ab" style="text-align: center;font-weight:600;font-size:20px;background:#222;color:#b1979781;font-family:'Poppins';margin-top:5px;"><h2><br> Why 'CrackIt!' ?</h2></section>
       <section class="section section-b">
 

@@ -148,9 +148,9 @@ session_start();
             {
               padding: 0;
               text-align: center;
-              margin-top: -75px;
+              margin-top: -85px;
               background: #ce9e3881;
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.9);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1.8);
 
             }
 
@@ -395,17 +395,17 @@ session_start();
               <video autoplay muted loop id="myVideo" style="width: 100%;"> 
                 <source src="bg.mp4" type="video/mp4"></video>
               </div>
-              <div class="header-content text-md-center" style="margin-top:-25px;">
+              <div class="header-content text-md-center" style="margin-top:-70px;">
                 <h1>WELCOME <span style="color: #f5bb00;">ASPIRANTS!</span></h1>
                 <p>To a place where you can test your MHT CET preparations and lead yourself closer to your goal by uplifting your preparations.<span style="color: #f5bb00;"> Just Remember that it's not about how bad you want it, it's about how hard you are willing to work for it.</span> </p>
                 <a class="btn" href="more.php">Find Out More</a>
               </div>
             </div>
-    
+    <section>
       <section class="section section-a" style="text-align: left;">
         <div class="container">
-          <br><h2>About MHT CET</h2><br>
-          <p>MHT CET is an annual entrance exam directed by the Directorate of Technical Education (DTE), Maharashtra.
+          <br><h1 style="font-size:30px;"><strong>About MHT CET</strong></h1><br>
+          <p style="padding:-25px;">MHT CET is an annual entrance exam directed by the Directorate of Technical Education (DTE), Maharashtra.
              <br>Directorate of Technical Education (DTE) Maharashtra State conducts MHT CET for admission to first year B.E/B. Tech programs. 
              <br>In the academic year 2016, DTE conducted its own, one single combined ‘Common Entrance Test’ MHT-CET 2016 for all Health Sciences, Engineering and Pharmacy degree courses. But from 2017 onwards, MHT CET is being held only for admissions to undergraduate engineering courses in the state. </p>
              <p>The Maharashtra Health and Technical Common Entrance Test was conducted in online mode for the first time in 2019. The State Common Entrance Test Cell, Maharashtra releases the syllabus and marking scheme for the Computer Based Test (CBT). To check that in detail visit the Resources section of the website.</p>
@@ -413,7 +413,7 @@ session_start();
              <p>With 'CrackIt!' you can take up a mock test any time and check your speed & accuracy which will help you to know where you have to focus more. Also you can access to the top class study material available in the Resources section of this website.<br>So what are you waiting for? Just GetStarted. </p>
         </div><br><br>
       </section>
-    
+            </section>
       <section class="course">
         <h1><strong>Subjects in MHTCET</strong></h1>
         <p>MHT CET 2021 syllabus includes four subjects - Physics, Chemistry and Mathematics/Biology out of which at "CrackIt!" we are going to primarily focus the following three subjects. The Exam for PCM group is subdivided into two phases : Physics+Chemistry in the first phase and Maths in the latter.</p>

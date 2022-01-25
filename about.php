@@ -14,6 +14,7 @@ session_start();
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
         <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
@@ -200,12 +201,7 @@ session_start();
               box-sizing: border-box;
               transition: 0.5s;
             }
-            h3
-            {
-              text-align: center;
-              font-weight: 600;
-              margin: 10px 0;
-            }
+            
             .course-col:hover
             {
               box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
@@ -392,238 +388,140 @@ session_start();
             line-height: 1.5;
             color: #777;
           }
-          .about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2rem;
-}
+          .contact
+          {
+            position: relative;
+            min-height: 100vh;
+            padding: 50px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url(contact.jpg.jpg);
+            background-size: cover;
+          }
+          .contact .content
+          {
+            text-align: center;
+            max-width: 800px;
+          }
+          .contact .content h2
+          {
+            font-size: 36px;
+            font-weight: 500;
+            color: #fff;
+          }
+          .contact .content p
+          {
+            font-weight: 300;
+            color: #fff;
+          }
+          .container3
+          {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+          }
+          .container3 .contactInfo
+          {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+          }
+          .container3 .contactInfo  .box
+          {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+          }
+          .container3 .contactInfo .box .icon 
+          {
+            min-width: 60px;
+            min-height: 60px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 22px;
+          }
+          .container3 .contactInfo .box .text
+          {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: #fff;
+            flex-direction: column;
+            font-weight: 300;
+          }
+          .container3 .contactInfo .box .text h3
+          {
+            font-weight: 500;
+            color: #00bcd4;   
+          }
+          .contactForm
+          {
+            width: 40%;
+            padding: 40px;
+            background: #fff;
+          }
+          .contactForm h2
+          {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+          }
+          .contactForm .inputBox
+          {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+          }
+          .contactForm .inputBox input,
+          .contactForm .inputBox textarea
+          {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+          }
+          .contactForm .inputBox span
+          {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+          } 
+          .contactForm .inputBox input:focus ~ span,
+          .contactForm .inputBox input:valid ~ span,
+          .contactForm .inputBox textarea:focus ~ span,
+          .contactForm .inputBox textarea:valid ~ span
+          {
+            color: #e91e63;
+            font-size: 12px;
+            transform: translateY(-20px);
+          }
+          .contactForm .inputBox input[type="submit"]
+          {
+            width: 100px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+          }
 
-.about .image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
-
-.about .image img {
-  width: 100%;
-}
-
-.about .content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
-
-.about .content .about-title {
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  color: #444;
-}
-
-.about .content p {
-  font-size: 1rem;
-  line-height: 2;
-  color: #777;
-  padding: 1rem 0;
-}
-
-.about .content .icons-container {
-  margin-top: 1rem;
-  display: -ms-grid;
-  display: grid;
-            -ms-grid-columns: (minmax(10rem, 0.8fr))[auto-fit];
-                grid-template-columns: repeat(auto-fit, minmax(10rem, 0.8fr));
-  gap: 1.5rem;
-}
-
-.about .content .icons-container .icons {
-  text-align: center;
-  border: 0.1rem solid #0eb582;
-  background: #f0fdfa;
-  padding: 3rem 2rem;
-}
-
-.about .content .icons-container .icons img {
-  height: 3.5rem;
-  margin-bottom: .5rem;
-}
-
-.about .content .icons-container .icons h3 {
-  padding: .5rem 0;
-  font-size: 2rem;
-  text-transform: capitalize;
-  color: #444;
-}
-
-.about .content .icons-container .icons span {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #777;
-}
-.reviews .slide {
-  text-align: center;
-}
-
-.reviews .slide p {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #777;
-  position: relative;
-  background: #f0fdfa;
-  border: 0.1rem solid #0eb582;
-  margin-bottom: 3rem;
-  padding: 2rem;
-}
-
-.reviews .slide p::before {
-  content: '';
-  position: absolute;
-  bottom: -1.2rem;
-  left: 50%;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-          transform: translateX(-50%) rotate(45deg);
-  background: #f0fdfa;
-  border-bottom: 0.1rem solid #0eb582;
-  border-right: 0.1rem solid #0eb582;
-  height: 2rem;
-  width: 2rem;
-}
-
-.reviews .slide img {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 50%;
-}
-
-.reviews .slide h3 {
-  font-size: 2.2rem;
-  text-transform: capitalize;
-  color: #444;
-  padding: .5rem 0;
-}
-
-.reviews .slide .stars {
-  font-size: 1.2rem;
-  color: #0eb582;
-}
-.contact .icons-container {
-  margin-bottom: 3rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(15rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 1.2rem;
-}
-
-.contact .icons-container .icons {
-  text-align: center;
-  padding: 1.5rem 1.5rem;
-  border: 0.1rem solid #0eb582;
-  background: #f0fdfa;
-}
-
-.contact .icons-container .icons i {
-  height: 4rem;
-  width: 4rem;
-  line-height: 4rem;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  margin-bottom: .5rem;
-  color: #fff;
-  background: #0eb582;
-}
-
-.contact .icons-container .icons h3 {
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  color: #444;
-  padding: .5rem 0;
-}
-
-.contact .icons-container .icons p {
-  font-size: 1rem;
-  line-height: 1.4;
-  color: #777;
-}
-
-.contact .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 1.5rem;
-}
-
-.contact .row .image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
-
-.contact .row .image img {
-  width: 90%;
-}
-
-.contact .row form {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  border: 0.1rem solid #0eb582;
-  padding: 2rem;
-  margin-right: 20px;
-}
-
-.contact .row form h3 {
-  font-size: 1.2rem;
-  text-transform: capitalize;
-  color: #444;
-  padding-bottom: 1rem;
-}
-
-.contact .row form .box {
-  width: 90%;
-  height: 70%;
-  padding: 1.2rem 1.4rem;
-  border: 0.1rem solid #0eb582;
-  font-size: 1.2rem;
-  margin: .5rem 0;
-}
-
-.contact .row form .box:focus {
-  background: #0eb582;
-  color: #fff;
-}
-
-.contact .row form .box:focus::-webkit-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus:-ms-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus::-ms-input-placeholder {
-  color: #eee;
-}
-
-.contact .row form .box:focus::placeholder {
-  color: #eee;
-}
-
-.contact .row form textarea {
-  height: 10rem;
-  resize: none;
-}
          </style>
          <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       </head>
@@ -679,195 +577,70 @@ session_start();
             <div class="fullscreen-video-wrap">
               <img src="images/home-slide-1.jpg" alt="" style="height: auto; width:100%;">
               </div>
-              <div class="header-content text-md-center" style="margin-left: -120px; margin-right:475px; margin-top:-175px;">
-                <h1>ENGINEERING</h1>
-                <p>To a place where you can test your MHT CET preparations and lead yourself closer to your goal by uplifting your preparations. Just Remember that it's not about how bad you want it, it's about how hard you are willing to work for it.</p>
+              <div class="header-content text-md-center" style="margin-left: -130px; margin-right:495px; margin-top:-275px;">
+              <h3 style="font-size: 30px;">With <span style="color: #f5bb00; font-size:59px;">CrackIt!</span></h3>
+                <p>Our Only Aim is to Ensure that You Get Everything You Need to Boost Your Preparations at Your Fingertips without charging You for Anything.</p>
               </div>
             </div>
-      <section class="section section-a" style="text-align: left;">
-        <div class="container">
-        </div><br><br><br>
-      </section><br>
+            <section class="section section-a" style="text-align: left; color:white">
+        <div class="container5" style="margin-left: 350px; margin-right:250px;"><br><br><br>
+          <h2>About "CrackIt!"</h2><br>
+          <p><span style="text-align: center;"> In the wake of pandemic situation, when every service was difficult to be provided or received, everyone realized the importance of digitalization. So did the Education Sector our Country and State. With Colleges and Coaching Institutes being shut down, there was Tremendous need of Platforms which could provide Students a place where they could continue their exam preparations. “CrackIt!” has been designed and developed for the same purpose. The sole objective of this system is to provide students with quality study resources, multiple mock exams with proper management, all the required information regarding a particular exam they are preparing for and several similar things. <b>"CrackIt!" is a One Destination for Everything Solution</b> for an aspirant preparing for an exam. The system will work under admin and user section with different login systems for both.  The admin will have entire control over the resources provided to the students and the mock tests as well.</p><br><br><br>
+            </section>
 
-<section style="padding-right: 15px;">
-<section class="about">
-
-<div class="image">
-   <img src="images/about-img.jpg" alt="">
-</div>
-
-<div class="content" style="padding-right: 10px;">
-   <h5 class="about-title">we have best courses for you</h5>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam hic magnam fugit exercitationem neque, quae laboriosam natus. Ut maxime assumenda facere ea quasi accusamus dolores delectus tempora animi, expedita iste.</p>
-   <div class="icons-container">
-      <div class="icons">
-         <img src="images/about-icon-1.png" alt="">
-         <h3>350+</h3>
-         <span>courses</span>
-      </div>
-      <div class="icons">
-         <img src="images/about-icon-2.png" alt="">
-         <h3>1200+</h3>
-         <span>students</span>
-      </div>
-      <div class="icons">
-         <img src="images/about-icon-3.png" alt="">
-         <h3>10+</h3>
-         <span>awards</span>
-      </div>
-   </div>
-</div>
-</section>
-
-</section><br><br>
-
-<!--<section class="reviews">
-
-   <h1 class="heading"> our students review </h1>
-
-   <div class="swiper reviews-slider">
-
-      <div class="swiper-wrapper">
-
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-1.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
+      <section class="contact">
+        <div class="content">
+          <h2>Contact Us</h2>
+          <p>To get in touch with me you can use my email and you can share your thoughts,suggestions,problems with me and I will try to reply them as much as I can.</p>
+        </div>
+        <div class="container3">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Sangli, Maharashtra, India.</p>
+              </div>
             </div>
-         </div>
-
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-2.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>7414967515</p>
+              </div>
             </div>
-         </div>
-
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-3.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
+            <div class="box">
+              <div class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>mohiddinshikalgar21@gmail.com</p>
+              </div>
             </div>
-         </div>
+          </div> 
+          <div class="contactForm">
+            <form action="" name="">
+              <h2>Send Message</h2>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Full Name</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+              </div>
+              <div class="inputBox">
+                <textarea required="required"></textarea>
+                <span>Type Your Message...</span>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Send">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
 
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-4.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-         </div>
 
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-5.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-         </div>
-
-         <div class="swiper-slide slide">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
-            <img src="images/pic-6.png" alt="">
-            <h3>john deo</h3>
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star-half-alt"></i>
-            </div>
-         </div>
-
-      </div>
-
-   </div>
-
-</section><br>-->
-
-<section style="margin: 20px; ">
-<section class="contact">
-
-<section style="margin: 20px; ">
-   <h1 class="heading" style="text-align: center;"> Get in Touch </h1><br>
-
-   <div class="icons-container">
-
-      <div class="icons">
-         <i class="fas fa-clock"></i>
-         <h3> Available :</h3>
-         <p>06:00pm to 09:00pm</p>
-      </div>
-
-      <div class="icons">
-         <i class="fas fa-phone"></i>
-         <h3> Phone :</h3>
-         <p>+91 7414967515</p>
-         <p>+91 9049882986</p>
-      </div>
-
-      <div class="icons">
-         <i class="fas fa-envelope"></i>
-         <h3> Email : </h3>
-         <p>mohiddinshikalgar21@gmail.com</p>
-         <p>mohiddin.shikalgar20@vit.edu</p>
-      </div>
-
-      <div class="icons">
-         <i class="fas fa-map"></i>
-         <h3> Address :</h3>
-         <p>Sangli, Maharashtra.</p>
-      </div>
-
-   </div>
-</section> 
-   <div class="row">
-
-      <div class="image">
-         <img src="images/contact-img.png" alt="">
-      </div>
-
-      <form action="">
-         <h3>send us a message</h3>
-         <input type="text" placeholder="name" class="box">
-         <input type="email" placeholder="email" class="box">
-         <input type="number" placeholder="phone" class="box">
-         <textarea name="" class="box" placeholder="message" id="" cols="30" rows="7"></textarea>
-         <input type="submit" value="send message" class="btn">
-      </form>
-
-   </div>
-
-</section>
-</section><br>
 
 
 <!-- swiper js link  -->
